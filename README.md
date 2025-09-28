@@ -127,6 +127,33 @@ has 2 informations: host IP = 192.168.40.35
 192.168.40.254 Gateway IP
 
 
+Creating and executing basic bash scripts
+Hello, World Script
+<img width="341" height="40" alt="image" src="https://github.com/user-attachments/assets/3907ba83-d34b-45c0-90a9-ad1c2ed50890" />
+
+Implementing Loops and Conditionals
+It shows the user, loop through the next five numbers, and also create a conditional statement script
+<img width="364" height="112" alt="image" src="https://github.com/user-attachments/assets/4a8f424e-88bd-4002-8361-ce86c9199c15" />
+
+Autoating System Monitoring Tasks
+Basically to show how many times the user want to monitor the system as shown from the sreenshot
+<img width="407" height="246" alt="image" src="https://github.com/user-attachments/assets/06218b07-ef80-4d55-b65b-1330a1577148" />
+
+
+
+
+REFLECTION
+mkdir dirname --> create new directory
+cat filename --> view contents without opening in a GUI
+chmod 777 command is used for changing/allowing permission to read write execute
+#!/bin/bash is to tell the system to use the Bash shell interpreter to run the script
+free -h shows the image below, it shows the total,used, free, shared, buff/cache information
+<img width="401" height="38" alt="image" src="https://github.com/user-attachments/assets/c2282f79-46a4-4cc0-b597-d25f5f1db308" />
+
+
+
+ps -aux | grep httpd (to check apache2 server working/active)
+
 LAB3A
 
 LAB3B
