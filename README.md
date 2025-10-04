@@ -51,6 +51,7 @@ sudo gpasswd -d mallory sharedgroup (remove from sharedgroup)
 
 LAB 2A
 Total Cost Ownshership (TCO)
+
 <img width="470" height="271" alt="image" src="https://github.com/user-attachments/assets/7aa27d59-8e4f-44dd-b451-6ce6c07ab5bc" />
 
 
@@ -64,17 +65,21 @@ Install apache
 sudo apt update (to update repositories)
 sudo apt install apache2
 Test on index.html webpage (screenshot attached) using IP address
+
 <img width="669" height="441" alt="image" src="https://github.com/user-attachments/assets/fe18a079-9ab8-4d8d-a034-e6c455ad57c3" />
+
 Edited the index.html using sudo nano/var/www/html/index.html - No permission if don't use sudo
 Added my own name to the title page as shown from screenshot above.
 Tried using https://, the browser will continue to load but to no availability.
 
 Downloading files
 wget http://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf (download successful)
+
 <img width="926" height="236" alt="image" src="https://github.com/user-attachments/assets/3f83daa6-6c2b-4dcf-a6cb-3b93fd9b9ada" />
 
 sudo cp EECS-2009-28.pdf /var/www/html/ (to move file into this directory)
 http://13.229.111.158/EECS-2009-28.pdf tested this link to see whether I can access the files
+
 <img width="660" height="482" alt="image" src="https://github.com/user-attachments/assets/6c533705-ea80-4c20-b7db-e023352bd6b2" />
 
 create a link in the index.html using the EECS-2009-28 PDF File
@@ -134,10 +139,12 @@ Hello, World Script
 
 Implementing Loops and Conditionals
 It shows the user, loop through the next five numbers, and also create a conditional statement script
+
 <img width="364" height="112" alt="image" src="https://github.com/user-attachments/assets/4a8f424e-88bd-4002-8361-ce86c9199c15" />
 
 Autoating System Monitoring Tasks
 Basically to show how many times the user want to monitor the system as shown from the sreenshot
+
 <img width="407" height="246" alt="image" src="https://github.com/user-attachments/assets/06218b07-ef80-4d55-b65b-1330a1577148" />
 
 
@@ -149,6 +156,7 @@ cat filename --> view contents without opening in a GUI
 chmod 777 command is used for changing/allowing permission to read write execute
 #!/bin/bash is to tell the system to use the Bash shell interpreter to run the script
 free -h shows the image below, it shows the total,used, free, shared, buff/cache information
+
 <img width="401" height="38" alt="image" src="https://github.com/user-attachments/assets/c2282f79-46a4-4cc0-b597-d25f5f1db308" />
 
 
@@ -160,9 +168,11 @@ Domain Registration (using GoDaddy)
 
 
 NSlookup domain
+
 <img width="408" height="155" alt="image" src="https://github.com/user-attachments/assets/26a896a0-f2ca-4dc9-9c79-97430e66ee49" />
 
 Dig domain
+
 <img width="455" height="232" alt="image" src="https://github.com/user-attachments/assets/daaecea5-91f1-4161-9a10-0a9836361fcc" />
 
 curl ifconfig.me to see whether can detect
@@ -176,19 +186,25 @@ sudo apt update
 sudo apt install certbot python3-certbot-apache -y
 
 sudo certbot --apache (run to obtain TLS cert)
+
 <img width="749" height="254" alt="image" src="https://github.com/user-attachments/assets/2ed24170-6e8c-4e07-82eb-9bced7ec4626" />
 
 Go to https://szhihao.com
+
 <img width="808" height="467" alt="image" src="https://github.com/user-attachments/assets/190c8d82-1192-4dde-8b54-f09da4910fef" />
+
 Issuer should be **Let's Encrypt**
+
 <img width="600" height="419" alt="image" src="https://github.com/user-attachments/assets/fde37775-cc92-4db0-8744-c3f571e8ff02" />
 
 Enable and test auto-renewal
 sudocertbot renew --dry-run
+
 <img width="601" height="193" alt="image" src="https://github.com/user-attachments/assets/d2d4d4ab-d1b8-4e68-b2f8-3ba1b3535843" />
 
 
 Getting into the domain in Ubuntu Linux VM
+
 <img width="688" height="427" alt="image" src="https://github.com/user-attachments/assets/a09e9edb-90ec-4088-9eda-55be9d5d6f03" />
 
 Install Certbot using snap
@@ -206,14 +222,17 @@ LAB3B
 Sample directory (backup)
 mkdir -p /home/ubuntu/Documents/testfolder
 cd /home/ubuntu/Documents
+
 <img width="417" height="58" alt="image" src="https://github.com/user-attachments/assets/71da4883-b496-4e09-b784-b4126019e13b" />
 
 Creates files
+
 <img width="404" height="89" alt="image" src="https://github.com/user-attachments/assets/f655efe0-77c7-4c72-bb51-1cc28642b20e" />
 
 Write bash script (adding timestamp filename)
 
 Perofrm backup of files and compressing files
+
 <img width="409" height="242" alt="image" src="https://github.com/user-attachments/assets/26ecde8d-d21b-44ff-be62-050b5463a7c4" />
 
 
