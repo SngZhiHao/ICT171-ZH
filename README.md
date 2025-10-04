@@ -3,6 +3,7 @@ ZhiHaoGitHub
 
 
 LAB 1A
+
 Get familiarize with setting up Ubuntu VMWare, configuration of network and resolving the network issue. I have to go to network and sharing center to disable both the VMWare internet and it works after disabling it. I have to use NAT network instead of the bridged network
 systemctl list-units --type=service (to check services)
 sudo systemctl start [service] - I tested on NetworkManager.services
