@@ -155,8 +155,66 @@ free -h shows the image below, it shows the total,used, free, shared, buff/cache
 ps -aux | grep httpd (to check apache2 server working/active)
 
 LAB3A
+Domain Registration (using GoDaddy)
+
+
+NSlookup domain
+<img width="408" height="155" alt="image" src="https://github.com/user-attachments/assets/26a896a0-f2ca-4dc9-9c79-97430e66ee49" />
+
+Dig domain
+<img width="455" height="232" alt="image" src="https://github.com/user-attachments/assets/daaecea5-91f1-4161-9a10-0a9836361fcc" />
+
+curl ifconfig.me to see whether can detect
+
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+or
+Go to the instances in AWS --> security group --> add new inbound rules
+
+sudo apt update
+sudo apt install certbot python3-certbot-apache -y
+
+sudo certbot --apache (run to obtain TLS cert)
+<img width="749" height="254" alt="image" src="https://github.com/user-attachments/assets/2ed24170-6e8c-4e07-82eb-9bced7ec4626" />
+
+Go to https://szhihao.com
+<img width="808" height="467" alt="image" src="https://github.com/user-attachments/assets/190c8d82-1192-4dde-8b54-f09da4910fef" />
+Issuer should be **Let's Encrypt**
+<img width="600" height="419" alt="image" src="https://github.com/user-attachments/assets/fde37775-cc92-4db0-8744-c3f571e8ff02" />
+
+Enable and test auto-renewal
+sudocertbot renew --dry-run
+<img width="601" height="193" alt="image" src="https://github.com/user-attachments/assets/d2d4d4ab-d1b8-4e68-b2f8-3ba1b3535843" />
+
+
+Getting into the domain in Ubuntu Linux VM
+<img width="688" height="427" alt="image" src="https://github.com/user-attachments/assets/a09e9edb-90ec-4088-9eda-55be9d5d6f03" />
+
+Install Certbot using snap
+sudo apt update
+sudo apt install snapd -y
+sudo snap install core: sudo snap refresh core
+snap snap install --classic certbot
+sudo ln -s /snap/bin/certbo /usr/bin/certbot
+
+<img width="371" height="319" alt="image" src="https://github.com/user-attachments/assets/d1fb33ca-c8b3-4a53-8582-9d94f2e5d617" />
+
 
 LAB3B
+
+Sample directory (backup)
+mkdir -p /home/ubuntu/Documents/testfolder
+cd /home/ubuntu/Documents
+<img width="417" height="58" alt="image" src="https://github.com/user-attachments/assets/71da4883-b496-4e09-b784-b4126019e13b" />
+
+Creates files
+<img width="404" height="89" alt="image" src="https://github.com/user-attachments/assets/f655efe0-77c7-4c72-bb51-1cc28642b20e" />
+
+Write bash script (adding timestamp filename)
+
+Perofrm backup of files and compressing files
+<img width="409" height="242" alt="image" src="https://github.com/user-attachments/assets/26ecde8d-d21b-44ff-be62-050b5463a7c4" />
+
 
 LAB4A
 
