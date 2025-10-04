@@ -19,6 +19,7 @@ sudo apt install --> to install the google chrome, if failed use sudo dkpg -i (s
 
 sudo apt install vlc
 sudo apt search vlc (search packages)
+
 LAB 1B
 
 sudo apt update
