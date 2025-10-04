@@ -96,7 +96,8 @@ Some other alternatives to Amazon EC2 - Microsoft Azure, Google cloud, Oracle cl
 curl command basically is to show the entire index.html webpage configurations
 
 LAB 2b-2
-Creaet and navigate directories
+
+Create and navigate directories
 mkdir lab_test
 cd lab_test
 
@@ -122,16 +123,27 @@ chmod 777 hello_world.sh
 ./hello_world.sh
 
 Other notes:
+
 What is an IP address
+
 4 byte dotted decimal number
+
 has 2 informations: host IP = 192.168.40.35
+
 /16 : 192.168.0.0 = 192.168.0.1 till 192.168.255.253 2^16
+
 192.168.0.0 = network ID
+
 192.168.255.255 Broadcast address
+
 192.168.255.254 Gateway IP
+
 /24 : 196.168.40.0 = 192.168.40.1 to 192.168.168.253 2^24
+
 192.168.40.0 = network ID
+
 192.168.40.255 Broadcast address
+
 192.168.40.254 Gateway IP
 
 
