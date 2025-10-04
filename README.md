@@ -51,6 +51,7 @@ sudo gpasswd -d mallory sharedgroup (remove from sharedgroup)
 
 
 LAB 2A
+
 Total Cost Ownshership (TCO)
 
 <img width="470" height="271" alt="image" src="https://github.com/user-attachments/assets/7aa27d59-8e4f-44dd-b451-6ce6c07ab5bc" />
