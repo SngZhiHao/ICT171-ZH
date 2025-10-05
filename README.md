@@ -1,4 +1,4 @@
-# ICT171-ZHIHAO
+<img width="406" height="158" alt="image" src="https://github.com/user-attachments/assets/38dee75c-6473-491d-adfd-28ba1ebd7865" /># ICT171-ZHIHAO
 ZhiHaoGitHub
 
 
@@ -21,15 +21,26 @@ cd Downloads/ to go to the path, ls to list down the files (google-chrome-stable
 
 sudo apt install --> to install the google chrome, if failed use sudo dkpg -i (sudo is admin(root), dpkg is debian package manager, -i is install)
 
+<img width="406" height="158" alt="image" src="https://github.com/user-attachments/assets/8970f9c3-8d37-448b-8113-b00bd5cd10cb" />
+
+
 sudo apt install vlc
 
-sudo apt search vlc (search packages)
+<img width="334" height="233" alt="image" src="https://github.com/user-attachments/assets/9abfdc39-4510-4545-8941-7a9188041db6" />
+
+sudo apt search 'package_name' (search packages)
+
 
 LAB 1B
 
 sudo apt update
 
 sudo apt install apache2 Install apache2 server
+
+Testing the Apache2 Default webpage
+
+<img width="519" height="410" alt="image" src="https://github.com/user-attachments/assets/0063af06-1cd1-4e39-a38a-3dd60feed84d" />
+
 
 sudo apt install nmap 
 
@@ -40,6 +51,9 @@ wget https://www.gutenberg.org/files/76/76-0.txt
 wget https://www.gutenberg.org/files/36/36-0.txt
 
 wge https://www.gutenberg.org/files/12/12-0.txt
+
+<img width="580" height="284" alt="image" src="https://github.com/user-attachments/assets/4b5cbf92-aa84-4d04-89bf-e97285382d88" />
+
 
 mkdir books (create directory)
 move the files
@@ -53,20 +67,43 @@ sudo adduser alice, sudo adduser bob, sudo adduser mallory
 
 sudo groupadd sharedgroup
 
+<img width="406" height="101" alt="image" src="https://github.com/user-attachments/assets/0f16600c-9d6e-44ab-bb1d-65096766c707" />
+
+
 sudo mkdir /home/shared/
+
+<img width="396" height="58" alt="image" src="https://github.com/user-attachments/assets/c1a676a6-4509-41eb-9de5-8c9314e98fee" />
+
 
 sudo touch /home/shared/file{1..10}
 
+<img width="395" height="47" alt="image" src="https://github.com/user-attachments/assets/1e440754-be5d-4836-a270-368c36232c10" />
+
+sudo chgrp -R sharedgroup /home/shared
+
 sudo usermod -aG sharedgroup alice, sudo usermod -aG sharedgroup bob, 
 
-sudo usermod -aG sharedgroup mallory (add to group)
+sudo chmod -R 770 /home/shared/ (Allow owner and group)
 
-sudo chmod -R 770 /home/shared/ (Allow owner)
+<img width="316" height="133" alt="image" src="https://github.com/user-attachments/assets/3273eacd-bc33-4579-84ec-0d2bde1d3694" />
+
+<img width="722" height="28" alt="image" src="https://github.com/user-attachments/assets/543cdd2a-7d9c-485a-bc55-080bad45e4e7" />
+
+<img width="657" height="276" alt="image" src="https://github.com/user-attachments/assets/e500104a-8f93-4786-94b0-858ed587e138" />
+
+alice user permission
+
+<img width="290" height="138" alt="image" src="https://github.com/user-attachments/assets/ed9e5565-6513-4228-a959-483d47c0667e" />
 
 sudo chmod 750 /home/shared/ (Read write execute to group) - dont need to put *
 
 sudo gpasswd -d mallory sharedgroup (remove from sharedgroup)
 
+<img width="390" height="69" alt="image" src="https://github.com/user-attachments/assets/e70ab311-b040-42e4-b8f0-ac4459cfea51" />
+
+No permission for mallory
+
+<img width="380" height="84" alt="image" src="https://github.com/user-attachments/assets/432b3235-fe9f-4f6e-a907-5bf3b297704b" />
 
 
 LAB 2A
@@ -340,5 +377,15 @@ Testing functionality of MariaDB server by logging into the MariaDB database con
 
 
 <img width="407" height="139" alt="image" src="https://github.com/user-attachments/assets/48b7550e-4faa-4454-af54-028d737cc521" />
+
+Basic DB Operations
+
+Creating new user application
+
+<img width="406" height="132" alt="image" src="https://github.com/user-attachments/assets/f3679fa0-9c83-4fad-b8d4-e6d8b6c631e2" />
+
+Granting privileges and refreshing the privilege tables
+
+<img width="404" height="154" alt="image" src="https://github.com/user-attachments/assets/cd7d3aca-621e-4676-aba5-a1a89f4e6207" />
 
 
