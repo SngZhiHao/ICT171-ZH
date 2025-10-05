@@ -18,18 +18,23 @@ chmod 777 test.txt (read/write/execute all enabled)
 
 Install Google chrome .deb file
 cd Downloads/ to go to the path, ls to list down the files (google-chrome-stable_current_amd64.deb)
+
 sudo apt install --> to install the google chrome, if failed use sudo dkpg -i (sudo is admin(root), dpkg is debian package manager, -i is install)
 
 sudo apt install vlc
+
 sudo apt search vlc (search packages)
 
 LAB 1B
 
 sudo apt update
+
 sudo apt install apache2 Install apache2 server
+
 sudo apt install nmap 
 
 wget file from website
+
 wget https://www.gutenberg.org/files/76/76-0.txt
 
 wget https://www.gutenberg.org/files/36/36-0.txt
@@ -52,11 +57,13 @@ sudo mkdir /home/shared/
 
 sudo touch /home/shared/file{1..10}
 
-sudo usermod -aG sharedgroup alice, sudo usermod -aG sharedgroup bob, sudo suermod -aG sharedgroup mallory (add to group)
+sudo usermod -aG sharedgroup alice, sudo usermod -aG sharedgroup bob, 
+
+sudo usermod -aG sharedgroup mallory (add to group)
 
 sudo chmod -R 770 /home/shared/ (Allow owner)
 
-sudo chmod 750 /home/shared/ (Read write execute for to group) - dont need to put *
+sudo chmod 750 /home/shared/ (Read write execute to group) - dont need to put *
 
 sudo gpasswd -d mallory sharedgroup (remove from sharedgroup)
 
