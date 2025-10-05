@@ -307,5 +307,38 @@ Perofrm backup of files and compressing files
 
 LAB4A
 
+Additional Server Services
 
-LAB4B
+Install MariaDB server and client
+
+Server (sudo apt install mariadb-server)
+
+<img width="397" height="215" alt="image" src="https://github.com/user-attachments/assets/ea3861b5-0b2a-4878-a613-432ac46c5f37" />
+
+Client (sudo apt install mariadb-client)
+
+<img width="387" height="79" alt="image" src="https://github.com/user-attachments/assets/5dbcf9a2-ce56-48bf-a392-3b664f6eb0aa" />
+
+MYSQL not running 
+
+<img width="403" height="154" alt="image" src="https://github.com/user-attachments/assets/30c97b6b-603e-4c11-96c6-f2d62cef7d68" />
+
+
+Start MYSQL - sudo systemctl start mysql and sudo systemctl status mysql
+
+<img width="404" height="96" alt="image" src="https://github.com/user-attachments/assets/7e87c01b-c348-41f0-86db-6d61d0448624" />
+
+
+Successful installation of MariaDB (sudo maria-db-secure-installation) - Enhance security
+
+<img width="398" height="221" alt="image" src="https://github.com/user-attachments/assets/5280e953-a145-432d-9bdc-fbd81d550e6e" />
+
+<img width="391" height="306" alt="image" src="https://github.com/user-attachments/assets/9ad52c1d-ac04-43bb-94f1-e73284045053" />
+
+
+Testing functionality of MariaDB server by logging into the MariaDB database console (sudo mysql -u root -p) 
+
+
+<img width="407" height="139" alt="image" src="https://github.com/user-attachments/assets/48b7550e-4faa-4454-af54-028d737cc521" />
+
+
