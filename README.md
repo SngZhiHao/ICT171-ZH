@@ -399,3 +399,6 @@ Granting privileges and refreshing the privilege tables
 <img width="404" height="154" alt="image" src="https://github.com/user-attachments/assets/cd7d3aca-621e-4676-aba5-a1a89f4e6207" />
 
 
+Summary
+
+Really appreciate the help from the lecturers, he is very understanding and patient in guiding through the whole session even though there are many difficulties faced in the process. It was quite a tough 4 days for me and I believe for others as well as the schedule is quite tight for the assignment submission and exams. I will say that having submission on the following week of Wednesday and Exam on Saturday is really tough and the UC can maybe take into consideration a 1 week gap for the examination in the future.
