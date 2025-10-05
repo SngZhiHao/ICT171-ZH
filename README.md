@@ -1,8 +1,8 @@
-<img width="406" height="158" alt="image" src="https://github.com/user-attachments/assets/38dee75c-6473-491d-adfd-28ba1ebd7865" /># ICT171-ZHIHAO
+# ICT171-ZHIHAO
 ZhiHaoGitHub
 
 
-LAB 1A
+===LAB 1A===
 
 Get familiarize with setting up Ubuntu VMWare, configuration of network and resolving the network issue. I have to go to network and sharing center to disable both the VMWare internet and it works after disabling it. I have to use NAT network instead of the bridged network
 
@@ -16,7 +16,7 @@ grep -r 'search-term'
 touch test.txt
 chmod 777 test.txt (read/write/execute all enabled)
 
-Install Google chrome .deb file
+===Install Google chrome .deb file===
 cd Downloads/ to go to the path, ls to list down the files (google-chrome-stable_current_amd64.deb)
 
 sudo apt install --> to install the google chrome, if failed use sudo dkpg -i (sudo is admin(root), dpkg is debian package manager, -i is install)
@@ -31,7 +31,7 @@ sudo apt install vlc
 sudo apt search 'package_name' (search packages)
 
 
-LAB 1B
+===LAB 1B===
 
 sudo apt update
 
@@ -55,13 +55,13 @@ wge https://www.gutenberg.org/files/12/12-0.txt
 <img width="580" height="284" alt="image" src="https://github.com/user-attachments/assets/4b5cbf92-aa84-4d04-89bf-e97285382d88" />
 
 
-mkdir books (create directory)
+===mkdir books (create directory)===
 move the files
 tar cf books.tar books
 bzip2 books.tar
 ls -la
 
-add user/group
+===add user/group===
 
 sudo adduser alice, sudo adduser bob, sudo adduser mallory
 
@@ -91,7 +91,7 @@ sudo chmod -R 770 /home/shared/ (Allow owner and group)
 
 <img width="657" height="276" alt="image" src="https://github.com/user-attachments/assets/e500104a-8f93-4786-94b0-858ed587e138" />
 
-alice user permission
+===alice user permission===
 
 <img width="290" height="138" alt="image" src="https://github.com/user-attachments/assets/ed9e5565-6513-4228-a959-483d47c0667e" />
 
@@ -101,25 +101,41 @@ sudo gpasswd -d mallory sharedgroup (remove from sharedgroup)
 
 <img width="390" height="69" alt="image" src="https://github.com/user-attachments/assets/e70ab311-b040-42e4-b8f0-ac4459cfea51" />
 
-No permission for mallory
+===No permission for mallory===
 
 <img width="380" height="84" alt="image" src="https://github.com/user-attachments/assets/432b3235-fe9f-4f6e-a907-5bf3b297704b" />
 
+sudo rm -r /home/shared (to remove all test files and folders) - shared folder is deleted
 
-LAB 2A
 
-Total Cost Ownshership (TCO)
+<img width="332" height="178" alt="image" src="https://github.com/user-attachments/assets/6843de75-53e0-42f6-9cf7-911e5a44306a" />
+
+===Issue deleting user===
+
+<img width="380" height="176" alt="image" src="https://github.com/user-attachments/assets/9e74f5d2-5257-471c-8ec7-d7091d9f0fe0" />
+
+===Removing user===
+
+<img width="380" height="263" alt="image" src="https://github.com/user-attachments/assets/9d751072-cb5f-4d0e-94fd-5b88c809c176" />
+
+
+
+===LAB 2A===
+
+===Total Cost Ownshership (TCO)===
 
 <img width="470" height="271" alt="image" src="https://github.com/user-attachments/assets/7aa27d59-8e4f-44dd-b451-6ce6c07ab5bc" />
 
 
-LAB 2B-1
+===LAB 2B-1===
 
 Try out amazon EC2
 
 create a new instance (ubuntu virtual machine)
 
 Configuring security group, add rules HTTP
+
+
 
 Install apache
 
@@ -137,7 +153,7 @@ Added my own name to the title page as shown from screenshot above.
 
 Tried using https://, the browser will continue to load but to no availability.
 
-Downloading files
+===Downloading files===
 
 wget http://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf (download successful)
 
@@ -157,13 +173,13 @@ create a link in the index.html using the EECS-2009-28 PDF File
 
 Tested using other computer to access the link and it also works.
 
-Some other alternatives to Amazon EC2 - Microsoft Azure, Google cloud, Oracle cloud INfrastructure
+===Some other alternatives to Amazon EC2 - Microsoft Azure, Google cloud, Oracle cloud infrastructure===
 
 curl command basically is to show the entire index.html webpage configurations
 
-LAB 2b-2
+===LAB 2b-2===
 
-Create and navigate directories
+===Create and navigate directories===
 
 mkdir lab_test
 
@@ -189,7 +205,7 @@ Create a text file
 
 nano hell_world.sh
 
-(Add bash script)
+===(Add bash script)===
 
 BASH
 
@@ -230,19 +246,19 @@ has 2 informations: host IP = 192.168.40.35
 192.168.40.254 Gateway IP
 
 
-Creating and executing basic bash scripts
+===Creating and executing basic bash scripts===
 
 Hello, World Script
 
 <img width="341" height="40" alt="image" src="https://github.com/user-attachments/assets/3907ba83-d34b-45c0-90a9-ad1c2ed50890" />
 
-Implementing Loops and Conditionals
+===Implementing Loops and Conditionals===
 
 It shows the user, loop through the next five numbers, and also create a conditional statement script
 
 <img width="364" height="112" alt="image" src="https://github.com/user-attachments/assets/4a8f424e-88bd-4002-8361-ce86c9199c15" />
 
-Automating System Monitoring Tasks
+===Automating System Monitoring Tasks===
 
 Basically to show how many times the user want to monitor the system as shown from the sreenshot
 
@@ -251,7 +267,7 @@ Basically to show how many times the user want to monitor the system as shown fr
 
 
 
-REFLECTION
+===REFLECTION===
 
 mkdir dirname --> create new directory
 
@@ -269,7 +285,7 @@ free -h shows the image below, it shows the total,used, free, shared, buff/cache
 
 ps -aux | grep httpd (to check apache2 server working/active)
 
-LAB3A
+===LAB3A===
 Domain Registration (using GoDaddy)
 
 
@@ -323,7 +339,7 @@ sudo ln -s /snap/bin/certbo /usr/bin/certbot
 <img width="371" height="319" alt="image" src="https://github.com/user-attachments/assets/d1fb33ca-c8b3-4a53-8582-9d94f2e5d617" />
 
 
-LAB3B
+===LAB3B===
 
 Sample directory (backup)
 mkdir -p /home/ubuntu/Documents/testfolder
@@ -335,16 +351,16 @@ Creates files
 
 <img width="404" height="89" alt="image" src="https://github.com/user-attachments/assets/f655efe0-77c7-4c72-bb51-1cc28642b20e" />
 
-Write bash script (adding timestamp filename)
+===Write bash script (adding timestamp filename)===
 
-Perofrm backup of files and compressing files
+===Perforrm backup of files and compressing files===
 
 <img width="409" height="242" alt="image" src="https://github.com/user-attachments/assets/26ecde8d-d21b-44ff-be62-050b5463a7c4" />
 
 
-LAB4A
+===LAB4A===
 
-Additional Server Services
+===Additional Server Services===
 
 Install MariaDB server and client
 
@@ -378,7 +394,7 @@ Testing functionality of MariaDB server by logging into the MariaDB database con
 
 <img width="407" height="139" alt="image" src="https://github.com/user-attachments/assets/48b7550e-4faa-4454-af54-028d737cc521" />
 
-Basic DB Operations
+===Basic DB Operations===
 
 Creating new user application
 
