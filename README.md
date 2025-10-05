@@ -342,16 +342,10 @@ sudo ln -s /snap/bin/certbo /usr/bin/certbot
 ===LAB3B===
 
 Sample directory (backup)
-mkdir -p /home/ubuntu/Documents/testfolder
-cd /home/ubuntu/Documents
 
-<img width="417" height="58" alt="image" src="https://github.com/user-attachments/assets/71da4883-b496-4e09-b784-b4126019e13b" />
+Create test files and directory structures and use variables and date formatting
+<img width="628" height="191" alt="image" src="https://github.com/user-attachments/assets/075d5877-4074-4cfa-84cf-83e1727ec81c" />
 
-Creates files
-
-<img width="404" height="89" alt="image" src="https://github.com/user-attachments/assets/f655efe0-77c7-4c72-bb51-1cc28642b20e" />
-
-===Write bash script (adding timestamp filename)===
 
 ===Perforrm backup of files and compressing files===
 
