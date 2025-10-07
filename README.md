@@ -151,8 +151,6 @@ Edited the index.html using sudo nano/var/www/html/index.html - No permission if
 
 Added my own name to the title page as shown from screenshot above.
 
-Tried using https://, the browser will continue to load but to no availability.
-
 ===Downloading files===
 
 wget http://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf (download successful)
@@ -170,6 +168,11 @@ create a link in the index.html using the EECS-2009-28 PDF File
 < ahref="EECS-2009-28.pdf">Click here</a>
 
 <img width="590" height="204" alt="image" src="https://github.com/user-attachments/assets/688ed7ee-ab7d-482b-b626-1a07dc5500ba" />
+
+Added another sublink which will redirect to the EECS PDF file above
+
+<img width="722" height="460" alt="image" src="https://github.com/user-attachments/assets/b17fb0a5-25a5-4b86-931f-5c41c5a0bf32" />
+
 
 Tested using other computer to access the link and it also works.
 
