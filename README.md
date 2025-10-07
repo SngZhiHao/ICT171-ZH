@@ -263,7 +263,7 @@ It shows the user, loop through the next five numbers, and also create a conditi
 
 ===Automating System Monitoring Tasks===
 
-Basically to show how many times the user want to monitor the system as shown from the sreenshot
+Basically to show how many times the user want to monitor the system as shown from the screenshot
 
 <img width="407" height="246" alt="image" src="https://github.com/user-attachments/assets/06218b07-ef80-4d55-b65b-1330a1577148" />
 
